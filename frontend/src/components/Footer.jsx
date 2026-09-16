@@ -17,7 +17,7 @@ export default function Footer({ setActivePage }) {
               <span className="font-extrabold text-2xl text-white tracking-tight">Deshi<span className="text-sage-400">Mart</span></span>
             </div>
             <p className="text-xs text-forest-200 leading-relaxed">
-              Empowering local Indian farmers by bridging the gap to consumers. Direct farm-fresh produce, certified seeds, bio-fertilizers, and equipment.
+              Empowering local Indian farmers by bridging the gap to consumers. Direct farm-fresh produce, natural farm staples, certified seeds, and gardening equipment.
             </p>
             <div className="text-[11px] text-forest-300/80 pt-1">
               <span className="font-semibold text-forest-200">Legal Entity: </span>

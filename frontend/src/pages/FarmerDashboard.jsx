@@ -59,7 +59,7 @@ export default function FarmerDashboard({ token, user }) {
     { label: '🌾 Grains/Rice', url: 'https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&q=80&w=400' },
     { label: '🍅 Tomatoes', url: 'https://images.unsplash.com/photo-1592417817098-8f3d6eb19675?auto=format&fit=crop&q=80&w=400' },
     { label: '🥔 Potatoes', url: 'https://images.unsplash.com/photo-1518977676601-b53f82aba655?auto=format&fit=crop&q=80&w=400' },
-    { label: '🍂 Fertilizer', url: 'https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&q=80&w=400' },
+    { label: '🍯 Honey / Spices', url: 'https://images.unsplash.com/photo-1587049352846-4a222e784d38?auto=format&fit=crop&q=80&w=400' },
     { label: '🛠️ Tools/Sickle', url: 'https://images.unsplash.com/photo-1530595467537-0b5996c41f2d?auto=format&fit=crop&q=80&w=400' },
     { label: '🥕 Carrots', url: 'https://images.unsplash.com/photo-1598170845058-32b9d6a5da37?auto=format&fit=crop&q=80&w=400' }
   ];
@@ -332,12 +332,12 @@ export default function FarmerDashboard({ token, user }) {
                       onChange={(e) => setCategory(e.target.value)}
                       className="w-full bg-slate-50 border border-slate-200 rounded-lg px-3 py-2 text-xs focus:outline-none focus:ring-1 focus:ring-forest-400 focus:bg-white transition-colors"
                     >
-                      <option value="crops">Crops</option>
+                      <option value="crops">Grains & Crops</option>
                       <option value="vegetables">Vegetables</option>
                       <option value="fruits">Fruits</option>
                       <option value="seeds">Seeds</option>
-                      <option value="fertilizers">Fertilizers</option>
-                      <option value="tools">Tools</option>
+                      <option value="staples">Spices & Farm Staples</option>
+                      <option value="tools">Tools & Equipment</option>
                     </select>
                   </div>
 
@@ -431,7 +431,7 @@ export default function FarmerDashboard({ token, user }) {
                 <div className="text-center py-12 bg-slate-50 rounded-xl border border-dashed border-slate-200">
                   <Package className="h-8 w-8 text-slate-400 mx-auto mb-2" />
                   <p className="text-slate-500 text-xs font-semibold">No active produce listings</p>
-                  <p className="text-slate-400 text-[10px] mt-0.5">Use the form to list your crops, seeds or fertilizers.</p>
+                  <p className="text-slate-400 text-[10px] mt-0.5">Use the form to list your crops, seeds or farm staples.</p>
                 </div>
               ) : (
                 <div className="overflow-x-auto">

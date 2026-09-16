@@ -136,4 +136,4 @@ If you prefer to configure manually via the Render dashboard:
 * **Render Free Tier Cold Starts**:
   Render free web services spin down after 15 minutes of inactivity. When someone visits the site, it may take 30-50 seconds to wake up. This is normal on the free tier.
 * **Database Auto-Seeding**:
-  On first boot, DeshiMart automatically seeds demo farmers (Harpreet, Ramesh) and agricultural products (seeds, fertilizers, crops, tools).
+  On first boot, DeshiMart automatically seeds demo farmers (Harpreet, Ramesh) and agricultural products (seeds, staples & spices, crops, tools).

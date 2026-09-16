@@ -253,7 +253,7 @@ export default function Cart({ cart, setCart, user, token, setActivePage }) {
           </div>
           <h3 className="text-lg font-bold text-slate-700">Your basket is currently empty</h3>
           <p className="text-xs text-slate-500 max-w-sm mx-auto">
-            Browse our agricultural catalog to buy organic crops, fertilizers, hybrid seeds, and tools directly from verified farmers.
+            Browse our agricultural catalog to buy organic crops, farm staples, spices, hybrid seeds, and tools directly from verified farmers.
           </p>
           <button
             onClick={() => setActivePage('catalog')}

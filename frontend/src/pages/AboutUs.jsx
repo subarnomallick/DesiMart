@@ -13,7 +13,7 @@ export default function AboutUs({ setActivePage }) {
           </div>
           <h1 className="text-3xl sm:text-4xl font-extrabold tracking-tight">About DeshiMart</h1>
           <p className="text-forest-100 text-sm sm:text-base leading-relaxed">
-            DeshiMart is an agricultural e-commerce marketplace dedicated to empowering local farmers by providing them a direct digital channel to sell their fresh crops, certified seeds, organic bio-fertilizers, and farming equipment directly to consumers.
+            DeshiMart is an agricultural e-commerce marketplace dedicated to empowering local farmers by providing them a direct digital channel to sell their fresh crops, certified seeds, pure spices & natural farm staples, and farming equipment directly to consumers.
           </p>
         </div>
       </div>
@@ -36,7 +36,7 @@ export default function AboutUs({ setActivePage }) {
           </div>
           <h3 className="font-bold text-slate-900 text-lg">Quality & Purity</h3>
           <p className="text-slate-600 text-sm leading-relaxed">
-            Every product listed—from organic Basmati rice and fresh garden vegetables to bio-composts and farming sickles—undergoes quality inspection and transparent origin labeling.
+            Every product listed—from organic Basmati rice and fresh garden vegetables to pure farm honey, spices, and farming sickles—undergoes quality inspection and transparent origin labeling.
           </p>
         </div>
 

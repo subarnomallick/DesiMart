@@ -48,7 +48,7 @@ export default function PrivacyPolicy() {
           <h2 className="text-base font-bold text-slate-900">4. How We Use Your Information</h2>
           <p>We use your information strictly for legitimate operational purposes:</p>
           <ul className="list-disc pl-5 space-y-1 text-xs text-slate-650">
-            <li>Processing, dispatching, and fulfilling orders for crops, seeds, fertilizers, and tools.</li>
+            <li>Processing, dispatching, and fulfilling orders for crops, seeds, spices, farm staples, and gardening tools.</li>
             <li>Sending order confirmations, digital receipts, and delivery tracking updates.</li>
             <li>Enabling customer care responses and grievance redressal.</li>
             <li>Complying with statutory accounting and tax reporting obligations in India.</li>

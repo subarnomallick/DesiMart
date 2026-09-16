@@ -906,7 +906,7 @@ Here are the top high-yield crops to plant during the Winter/Rabi season (Octobe
 * **Mustard (Sarson)**: Requires light watering. Matures in 110–130 days. High profit margin per bigha.
 * **Chickpeas / Gram (Chana)**: Excellent for soil nitrogen fixation. Needs minimal irrigation.
 * **Green Peas (Matar)**: Quick 60–75 day cash crop. High market demand in winter.
-* **Potatoes & Onions**: Plant seed tubers in fertile, loose soil with organic compost.
+* **Potatoes & Onions**: Plant seed tubers in fertile, loose soil with organic manure.
 * **Leafy Greens**: Spinach (Palak), Fenugreek (Methi), and Coriander can be harvested multiple times.
 
 💡 **Pro Tip**: Use seed treatment with *Trichoderma viride* (5g/kg seed) before sowing to prevent root rot and wilt.`;
@@ -933,21 +933,21 @@ Protect your crops naturally from aphids, whiteflies, thrips, caterpillars, and 
   * **Frequency**: Spray every 7–10 days for active pest defense, or every 14 days as prevention.`;
   }
 
-  if (q.includes('fertilizer') || q.includes('npk') || q.includes('compost') || q.includes('soil') || q.includes('manure')) {
-    return `### 🧪 Best Soil Fertilizers & Organic Nutrition Guide
+  if (q.includes('soil') || q.includes('nutrition') || q.includes('organic') || q.includes('health') || q.includes('manure')) {
+    return `### 🌾 Natural Soil Health & Organic Farming Guide
 
-Healthy soil produces nutrient-dense, disease-resistant crops:
+Healthy soil produces nutrient-dense, disease-resistant crops naturally:
 
-* **1. Vermicompost (Earthworm Manure)**:
-  * Rich in humic acid and beneficial micro-flora. Apply 200–300 kg per acre before tilling.
-* **2. Bio-Fertilizer NPK Spray**:
-  * Contains Nitrogen-fixing, Phosphate-solubilizing (*PSB*), and Potash-mobilizing bacteria. Restores natural soil fertility.
-* **3. Neem Cake Compost**:
-  * Dual-action: Provides slow-release nitrogen while killing soil nematodes and termites.
-* **4. Jeevamrut (Fermented Bio-Liquid)**:
-  * Made with cow dung, urine, jaggery, and gram flour. Boosts microbial counts 100x within 48 hours.
+* **1. Crop Rotation & Green Manuring**:
+  * Grow leguminous green crops like Dhaincha or Sunn hemp to naturally fix atmospheric nitrogen into the soil.
+* **2. Natural Straw Mulching**:
+  * Spread organic dry straw or crop residue to conserve soil moisture, regulate root temperature, and feed earthworms.
+* **3. Traditional Jeevamrut**:
+  * Fermented blend of organic matter, jaggery, and pulse flour that multiplies beneficial soil bacteria exponentially.
+* **4. Deep Summer Ploughing**:
+  * Exposing the topsoil to sunlight naturally eradicates resting fungal spores and weed seeds before sowing.
 
-💡 **Recommendation**: Check out our **Bio-Fertilizer NPK Spray** and **Organic Neem Compost** in the DeshiMart catalog for certified organic inputs!`;
+💡 **Recommendation**: Explore certified seeds, pure spices, and organic staples in the DeshiMart catalog!`;
   }
 
   if (q.includes('sell') || q.includes('upload') || q.includes('farmer') || q.includes('market') || q.includes('price')) {
@@ -993,7 +993,7 @@ Namaste! I am here to help you maximize your farm yields and crop health. You ca
 
 * 🌾 **Seasonal Crop Planning** (Winter/Rabi, Summer/Kharif, Zaid)
 * 🌿 **Organic Pest Control** (Neem spray recipes, fungal remedies)
-* 🧪 **Fertilizers & Soil Health** (Vermicompost, Bio-NPK, Jeevamrut)
+* 🌾 **Soil Health & Natural Practices** (Crop Rotation, Mulching, Jeevamrut)
 * 🛒 **Selling on DeshiMart** & finding buyers directly
 * 🏷️ **Coupons & Discounts** (Use code \`FREEPACK\` for free packaging!)
 
@@ -1018,7 +1018,7 @@ app.post('/api/chat', async (req, res) => {
           body: JSON.stringify({
             contents: [{
               parts: [{
-                text: `You are the DeshiMart Farming Assistant. You are a friendly, practical agronomist and farming expert who advises Indian farmers on crop management, seasonal planning, organic techniques, pest control recipes (e.g. neem spray), seeds, and bio-fertilizers. You also guide consumers buying direct farm produce with Razorpay/UPI on DeshiMart. Keep answers actionable, formatted with bullet points and bold highlights. Query: ${message}`
+                text: `You are the DeshiMart Farming Assistant. You are a friendly, practical agronomist and farming expert who advises Indian farmers on crop management, seasonal planning, organic techniques, pest control recipes (e.g. neem spray), seeds, and natural farm staples. You also guide consumers buying direct farm produce with Razorpay/UPI on DeshiMart. Keep answers actionable, formatted with bullet points and bold highlights. Query: ${message}`
               }]
             }]
           })

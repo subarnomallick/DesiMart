@@ -6,7 +6,7 @@ export default function AIChat() {
   const [messages, setMessages] = useState([
     { 
       sender: 'bot', 
-      text: 'Namaste! Welcome to DeshiMart Farming Assistant. 🌱\nI can help you with seeds, fertilizers, organic pest management, crop seasons, or how to buy and sell on DeshiMart. What are you planting today?' 
+      text: 'Namaste! Welcome to DeshiMart Farming Assistant. 🌱\nI can help you with crop seasons, organic pest management, soil health, seeds, or how to buy and sell on DeshiMart. What are you planting today?' 
     }
   ]);
   const [input, setInput] = useState('');
@@ -16,7 +16,7 @@ export default function AIChat() {
   const suggestions = [
     'What crops should I plant in Winter?',
     'How do I make organic Neem pest spray?',
-    'What fertilizer is best for crop soil?',
+    'How to improve soil health naturally?',
     'How to upload and sell on DeshiMart?'
   ];
 

@@ -11,12 +11,12 @@ export default function Catalog({ onAddToCart, user }) {
 
   const categories = [
     { value: 'all', label: 'All Products' },
-    { value: 'crops', label: 'Crops' },
+    { value: 'crops', label: 'Grains & Crops' },
     { value: 'vegetables', label: 'Vegetables' },
     { value: 'fruits', label: 'Fruits' },
     { value: 'seeds', label: 'Seeds' },
-    { value: 'fertilizers', label: 'Fertilizers' },
-    { value: 'tools', label: 'Tools' }
+    { value: 'staples', label: 'Spices & Staples' },
+    { value: 'tools', label: 'Tools & Equipment' }
   ];
 
   const fetchProducts = async () => {

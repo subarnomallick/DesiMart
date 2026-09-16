@@ -5,7 +5,7 @@ export default function Home({ setActivePage, user }) {
   const categories = [
     { name: 'Direct Farm Crops', desc: 'Fresh harvest straight from agricultural lands.', tag: 'crops', image: 'https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&q=80&w=400' },
     { name: 'High Yield Seeds', desc: 'Certified seeds for vegetables, grains and fruits.', tag: 'seeds', image: 'https://images.unsplash.com/photo-1592417817098-8f3d6eb19675?auto=format&fit=crop&q=80&w=400' },
-    { name: 'Organic Fertilizers', desc: 'Bio-composts and nutrients to support soil health.', tag: 'fertilizers', image: 'https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&q=80&w=400' },
+    { name: 'Spices & Farm Staples', desc: 'Pure sun-dried spices, cold-pressed oils, and farm honey.', tag: 'staples', image: 'https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&q=80&w=400' },
     { name: 'Farming Equipment', desc: 'Industrial and manual harvesting tools.', tag: 'tools', image: 'https://images.unsplash.com/photo-1530595467537-0b5996c41f2d?auto=format&fit=crop&q=80&w=400' }
   ];
 
@@ -23,7 +23,7 @@ export default function Home({ setActivePage, user }) {
             Connecting Farmers directly with Consumers.
           </h1>
           <p className="text-forest-100 text-base sm:text-lg max-w-xl font-medium leading-relaxed">
-            Upload your harvests directly as a farmer, or browse seeds, fertilizers, crops and equipment as a customer. Built-in secure UPI payments and farming expert AI assistant.
+            Upload your harvests directly as a farmer, or browse seeds, fresh produce, spices, crops and equipment as a customer. Built-in secure UPI payments and farming expert AI assistant.
           </p>
           <div className="flex flex-wrap gap-4 pt-2">
             <button

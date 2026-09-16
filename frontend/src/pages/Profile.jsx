@@ -623,7 +623,7 @@ export default function Profile({ user, setUser, token, setActivePage, onLogout 
                   <ShoppingBag className="w-12 h-12 text-slate-400 mx-auto mb-3" />
                   <h3 className="font-bold text-slate-700">No orders placed yet</h3>
                   <p className="text-xs text-slate-500 max-w-sm mx-auto mt-1 mb-4">
-                    Explore farm-fresh crops, fertilizers, seeds, and tools in our marketplace.
+                    Explore farm-fresh crops, staples, spices, seeds, and tools in our marketplace.
                   </p>
                   <button
                     onClick={() => setActivePage('catalog')}

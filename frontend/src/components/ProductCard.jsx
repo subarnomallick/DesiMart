@@ -11,7 +11,7 @@ export default function ProductCard({ product, onAddToCart, user }) {
       vegetables: 'bg-emerald-100 text-emerald-800 border-emerald-200',
       fruits: 'bg-yellow-100 text-yellow-800 border-yellow-200',
       seeds: 'bg-sage-200 text-forest-700 border-sage-300',
-      fertilizers: 'bg-amber-100 text-amber-800 border-amber-200',
+      staples: 'bg-amber-100 text-amber-800 border-amber-200',
       tools: 'bg-blue-100 text-blue-800 border-blue-200',
     };
     return styles[category] || 'bg-slate-100 text-slate-800 border-slate-200';

@@ -34,7 +34,7 @@ export default function TermsConditions() {
             DeshiMart acts as an agritech platform facilitating direct interaction between independent agricultural producers ("Farmers") and buyers ("Customers").
           </p>
           <ul className="list-disc pl-5 space-y-1 text-xs text-slate-650">
-            <li>Farmers are solely responsible for ensuring that produce, seeds, and fertilizers meet certified agricultural safety standards.</li>
+            <li>Farmers are solely responsible for ensuring that produce, seeds, and farm staples meet certified agricultural quality and safety standards.</li>
             <li>All product prices are quoted in Indian Rupees (INR / ₹) and are inclusive of applicable taxes, unless stated otherwise.</li>
             <li>We reserve the right to correct pricing errors and cancel orders resulting from inadvertent technical or typographical inaccuracies.</li>
           </ul>

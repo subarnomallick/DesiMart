@@ -121,12 +121,12 @@ export async function seedInitialData() {
         farmer_name: farmerRamesh.name
       },
       {
-        name: 'Organic Neem Compost',
-        description: 'Premium organic nitrogen-rich fertilizer made from neem cake. Repels pests naturally.',
-        price: 250.0,
-        category: 'fertilizers',
-        image_url: 'https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&q=80&w=400',
-        stock: 100,
+        name: 'Organic Lakadong Turmeric (High Curcumin)',
+        description: 'Grown naturally in Meghalaya with >7% curcumin. Pure, stone-ground, free of preservatives or color additives.',
+        price: 220.0,
+        category: 'staples',
+        image_url: 'https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&q=80&w=400',
+        stock: 150,
         farmer_id: farmerRamesh._id,
         farmer_name: farmerRamesh.name
       },
@@ -151,11 +151,11 @@ export async function seedInitialData() {
         farmer_name: farmerHarpreet.name
       },
       {
-        name: 'Bio-Fertilizer NPK Spray',
-        description: 'Liquid bio-fertilizer containing nitrogen, phosphorus, and potassium fixing bacteria.',
-        price: 450.0,
-        category: 'fertilizers',
-        image_url: 'https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&q=80&w=400',
+        name: 'Pure Raw Wildflower Honey',
+        description: 'Unpasteurized forest wildflower honey harvested sustainably from organic apiaries. Natural & unprocessed.',
+        price: 380.0,
+        category: 'staples',
+        image_url: 'https://images.unsplash.com/photo-1587049352846-4a222e784d38?auto=format&fit=crop&q=80&w=400',
         stock: 80,
         farmer_id: farmerRamesh._id,
         farmer_name: farmerRamesh.name

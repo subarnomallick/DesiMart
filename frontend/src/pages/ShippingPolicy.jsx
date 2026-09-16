@@ -22,7 +22,7 @@ export default function ShippingPolicy() {
             <strong className="block text-sm font-bold text-slate-900 mb-0.5">
               Standard Estimated Delivery: 3 to 7 Business Days
             </strong>
-            Fresh local crops are delivered within 24 to 48 hours, while certified seeds, organic fertilizers, and farming equipment are delivered pan-India within 3 to 7 business days.
+            Fresh local crops are delivered within 24 to 48 hours, while certified seeds, natural farm staples, and gardening tools are delivered pan-India within 3 to 7 business days.
           </div>
         </div>
 
@@ -51,7 +51,7 @@ export default function ShippingPolicy() {
                   <td className="p-3">Ventilated eco-friendly agri-crates</td>
                 </tr>
                 <tr>
-                  <td className="p-3 font-semibold text-slate-900">Seeds & Bio-Fertilizers</td>
+                  <td className="p-3 font-semibold text-slate-900">Seeds & Farm Staples</td>
                   <td className="p-3">3 to 5 business days</td>
                   <td className="p-3">Moisture-proof sealed packaging</td>
                 </tr>

@@ -2,21 +2,21 @@
 
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy)
 
-**DeshiMart** is a full-stack agricultural e-commerce and advisory platform that directly connects local farmers with consumers. Farmers can list their organic crops, vegetables, seeds, fertilizers, and farming equipment, while consumers can easily browse, purchase, and pay via UPI or Razorpay. The platform also includes an intelligent AI Farming Assistant for 24/7 crop advice, disease management, and market guidance.
+**DeshiMart** is a full-stack agricultural e-commerce and advisory platform that directly connects local farmers with consumers. Farmers can list their organic crops, vegetables, seeds, spices, farm staples, and gardening equipment, while consumers can easily browse, purchase, and pay via UPI or Razorpay. The platform also includes an intelligent AI Farming Assistant for 24/7 crop advice, disease management, and market guidance.
 
 ---
 
 ## ✨ Features
 
-- **👨‍🌾 Farmer Dashboard**: Direct listing of harvests, seeds, tools, and fertilizers with stock management and preset crop photos.
-- **🛒 Consumer Marketplace**: Category filtering (Crops, Seeds, Fertilizers, Tools), instant search, and real-time inventory counts.
+- **👨‍🌾 Farmer Dashboard**: Direct listing of harvests, seeds, tools, and farm staples with stock management and preset crop photos.
+- **🛒 Consumer Marketplace**: Category filtering (Crops, Seeds, Spices & Staples, Tools), instant search, and real-time inventory counts.
 - **💳 Multi-Mode Payment Gateway**:
   - **Razorpay Integration**: Native checkout modal with Cards, Netbanking, and UPI.
   - **Dynamic UPI QR Code**: Live QR with merchant details (`SUBARNO MALLICK` / `subarno.mallick.1@oksbi`).
   - **Mock Payment Sandbox**: Fast testing for order flows with celebratory confetti animations.
 - **🤖 AI Farming Assistant**:
   - Live **Google Gemini API** integration for advanced natural language agricultural advice.
-  - High-precision **Offline Rule-Based Agronomist Engine** with seasonal calendars, organic pesticide recipes (Neem spray), and soil NPK guidance.
+  - High-precision **Offline Rule-Based Agronomist Engine** with seasonal calendars, organic pesticide recipes (Neem spray), and natural soil health guidance.
 - **📦 Relational & Cloud Persistence**: Built with **Mongoose / MongoDB** (supports local MongoDB & MongoDB Atlas).
 
 ---
